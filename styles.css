@@ -1,0 +1,134 @@
+html,body {
+    height: 100%;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: rgba(0,0,0,.87);
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+
+}
+
+.post {
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid rgb(218,220,224);
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-width: 140px;
+    width: 100%;
+    margin: 0 auto 0;
+    outline: none;
+    transition: background-color 200ms ease-in;
+    z-index: initial;
+    color: rgba(0,0,0,.87);
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    margin: 0;
+    text-size-adjust: 100%;
+    text-align: left;
+}
+
+
+.post-header {
+
+    display: inline-block;
+    vertical-align: top;
+    /* text-align: left; */
+    /* white-space: normal; */
+    width: 100%;
+    max-width: 530px;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1.25rem;
+    font-size: .875rem;
+    letter-spacing: .0142857143em;
+    font-weight: 400;
+    color: rgb(128,134,139);
+    margin-left: 12px;
+    min-width: 0;
+    width: 100%;
+}
+
+
+.author {
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    line-height: 1.25rem;
+    font-size: .875rem;
+    letter-spacing: .0178571429em;
+    font-weight: 600;
+    color: rgb(60,64,67);
+    margin-right: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.time {
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+}
+
+.title {
+    color: rgb(60,64,67);
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    letter-spacing: .0125em;
+    font-weight: 500;
+}
+
+.blockpost {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.content {
+    line-height: 1.5rem;
+    max-height: 13.5rem;
+    float: none;
+    margin-left: 0;
+}
+.contentbox {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin: 0 16px 16px;
+    word-wrap: break-word;
+}
+
+.comments {
+    border-top: none;
+    padding-bottom: 16px;
+    background-color: #fafafa;
+    transition: background-color 200ms ease-in;
+}
+
+.comment {
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 16px 16px 0;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+.comment.author {
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    line-height: 1.25rem;
+    font-size: 13px;
+    letter-spacing: .0178571429em;
+    font-weight: 500;
+    color: rgb(60,64,67);
+}
+
+.comment.content {
+
+    color: rgba(0,0,0,.87);
+}
